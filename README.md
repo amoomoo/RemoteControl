@@ -1,1 +1,1 @@
-# scratchproject
+RemoteControl is a workplace listkeeping application for digital nomads!
