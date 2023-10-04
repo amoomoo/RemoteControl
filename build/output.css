@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400;10..48,800&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 h1 {
   position: relative;
   text-align: center;
   padding-top: 1em;
 }
 
-/* body {
+body {
   --bs-body-font-family: var(--bs-font-monospace);
   --bs-body-line-height: 1.4;
   --bs-body-bg: var(--bs-gray-100);
-} */
+}
 
 tr {
   text-align: center;
 }
-
 
 /* .filterBar {
   display: flex;
@@ -29,7 +22,6 @@ tr {
   padding: 2em;
   justify-content: center;
 } */
-
 
 .signup-container {
   display: flex;
@@ -72,7 +64,7 @@ tr {
 
 .lists {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -93,20 +85,4 @@ tr {
   cursor: pointer;
   background-color: #0d6efd;
   transition: background-color 0.3s;
-}
-
-.resultIcon {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-right: 0.5rem;
-}
-
-.resultRow {
-  display: flex;
-  flex-direction: row;
-  margin: 1rem;
-}
-
-.link {
-  color: #0d6efd;
 }
